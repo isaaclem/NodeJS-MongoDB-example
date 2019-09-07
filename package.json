@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "mongo": "cd /users/isaaclem/mongodb/bin && ./mongod --dbpath /users/isaaclem/mongodb-data"
   },
   "keywords": [],
   "author": "",
